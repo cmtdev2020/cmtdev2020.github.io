@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pipe Pals – Chính sách quyền riêng tư / Privacy Policy</title>
+<meta name="description" content="Chính sách quyền riêng tư của game Pipe Pals. Privacy policy for the Pipe Pals game.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-top: #FFF4E8;
+    --bg-bottom: #EDE6FF;
+    --card: #FFFFFF;
+    --ink: #2E3150;
+    --ink-soft: #6B7090;
+    --accent: #8B6CFF;
+    --accent-soft: #F2EEFF;
+    --pink: #FF7A9C;
+    --line: #ECE8F7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-top: #1E1B2E;
+      --bg-bottom: #141222;
+      --card: #25223A;
+      --ink: #EDEBFA;
+      --ink-soft: #A9A6C4;
+      --accent: #A48BFF;
+      --accent-soft: #312B52;
+      --pink: #FF8FAD;
+      --line: #36324F;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: 'Nunito', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    color: var(--ink);
+    background: linear-gradient(180deg, var(--bg-top), var(--bg-bottom)) fixed;
+    background-color: var(--bg-bottom);
+    line-height: 1.65;
+    font-size: 16px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 28px 16px 48px; }
+  header { text-align: center; margin-bottom: 20px; }
+  .logo { display: inline-flex; align-items: center; gap: 10px; }
+  .dot { width: 34px; height: 34px; border-radius: 50%; position: relative; }
+  .dot::before, .dot::after {
+    content: ''; position: absolute; top: 13px; width: 5px; height: 5px;
+    border-radius: 50%; background: #fff;
+  }
+  .dot::before { left: 9px; } .dot::after { right: 9px; }
+  .dot.red { background: #F06A6A; } .dot.blue { background: #5B8CF5; }
+  .brand { font-size: 32px; font-weight: 900; letter-spacing: .3px; }
+  .brand .p1 { color: #F06A6A; } .brand .p2 { color: #5B8CF5; }
+  h1 { font-size: 22px; font-weight: 900; margin: 6px 0 2px; }
+  .meta { color: var(--ink-soft); font-weight: 600; font-size: 14px; }
+  .tabs {
+    display: flex; gap: 6px; justify-content: center; margin: 18px auto 0;
+    background: var(--card); padding: 5px; border-radius: 999px; width: fit-content;
+    box-shadow: 0 6px 18px rgba(46,49,80,.08);
+  }
+  .tabs button {
+    font: inherit; font-weight: 800; border: 0; cursor: pointer;
+    padding: 8px 18px; border-radius: 999px; background: transparent; color: var(--ink-soft);
+  }
+  .tabs button[aria-selected="true"] { background: var(--accent); color: #fff; }
+  .card {
+    background: var(--card); border-radius: 24px; padding: 22px 22px 8px;
+    box-shadow: 0 10px 30px rgba(46,49,80,.08); margin-top: 18px;
+  }
+  .card h2 {
+    font-size: 18px; font-weight: 900; margin: 18px 0 6px;
+    display: flex; align-items: center; gap: 8px;
+  }
+  .card h2:first-child { margin-top: 4px; }
+  .card h2 .n {
+    flex: none; width: 26px; height: 26px; border-radius: 50%;
+    background: var(--accent-soft); color: var(--accent);
+    display: inline-grid; place-items: center; font-size: 14px;
+  }
+  .card p, .card li { color: var(--ink); }
+  .card ul { padding-left: 20px; margin: 6px 0 12px; }
+  .card li { margin: 4px 0; }
+  .note {
+    background: var(--accent-soft); border-radius: 16px; padding: 12px 14px;
+    font-weight: 600; margin: 8px 0 16px;
+  }
+  a { color: var(--accent); font-weight: 700; word-break: break-word; }
+  .lang[hidden] { display: none; }
+  footer { text-align: center; color: var(--ink-soft); font-size: 13px; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo" aria-hidden="true">
+      <span class="dot red"></span>
+      <span class="brand"><span class="p1">Pipe</span> <span class="p2">Pals</span></span>
+      <span class="dot blue"></span>
+    </div>
+    <div class="tabs" role="tablist" aria-label="Language">
+      <button role="tab" id="tab-vi" aria-selected="true" data-lang="vi">Tiếng Việt</button>
+      <button role="tab" id="tab-en" aria-selected="false" data-lang="en">English</button>
+    </div>
+  </header>
+
+  <!-- ===================== TIẾNG VIỆT ===================== -->
+  <main class="lang" id="lang-vi" lang="vi">
+    <div style="text-align:center">
+      <h1>Chính sách quyền riêng tư</h1>
+      <div class="meta">Có hiệu lực từ ngày 15/11/2026</div>
+    </div>
+    <div class="card">
+      <p>Chính sách này giải thích cách game <strong>Pipe Pals</strong> (mã ứng dụng <code>com.tmq.pipe_pals</code>, gọi tắt là “Game”) xử lý thông tin khi bạn sử dụng. Chúng tôi không yêu cầu bạn tạo tài khoản và không thu thập tên, email hay số điện thoại của bạn.</p>
+      <div class="note">Tóm tắt: Game lưu tiến trình ngay trên máy của bạn. Quảng cáo do Google AdMob cung cấp và có thể dùng mã quảng cáo của thiết bị. Thanh toán do Google Play xử lý — chúng tôi không bao giờ thấy thông tin thẻ của bạn.</div>
+
+      <h2><span class="n">1</span>Dữ liệu lưu trên thiết bị</h2>
+      <p>Game lưu trên máy của bạn: màn đã qua, số sao, gợi ý, xu, skin, thành tích, chuỗi ngày chơi và các cài đặt (âm thanh, rung, chế độ mù màu, nhắc chơi). Dữ liệu này <strong>không được gửi tới máy chủ của chúng tôi</strong> (chúng tôi không có máy chủ riêng). Nếu bạn bật sao lưu của Android, hệ điều hành có thể tự sao lưu dữ liệu này vào tài khoản Google của bạn theo chính sách của Google. Gỡ cài đặt Game sẽ xoá dữ liệu này khỏi máy.</p>
+
+      <h2><span class="n">2</span>Quảng cáo (Google AdMob)</h2>
+      <p>Game hiển thị quảng cáo của <strong>Google AdMob</strong>: banner, quảng cáo xen kẽ giữa các màn và quảng cáo có thưởng (bạn tự chọn xem để nhận gợi ý, xu hoặc thêm thời gian). Để hiển thị và đo lường quảng cáo, Google có thể thu thập:</p>
+      <ul>
+        <li>Mã nhận dạng quảng cáo của thiết bị (Advertising ID);</li>
+        <li>Địa chỉ IP, thông tin thiết bị và hệ điều hành, ngôn ngữ, vị trí gần đúng suy ra từ IP;</li>
+        <li>Thông tin tương tác với quảng cáo (lượt hiển thị, lượt nhấn).</li>
+      </ul>
+      <p>Người dùng ở Khu vực Kinh tế Châu Âu, Vương quốc Anh và Thụy Sĩ sẽ được hỏi đồng ý trước khi hiển thị quảng cáo cá nhân hoá, và có thể đổi lựa chọn bất cứ lúc nào trong <em>Cài đặt → Quyền riêng tư quảng cáo</em>. Bạn cũng có thể đặt lại hoặc xoá mã quảng cáo trong cài đặt Android (<em>Cài đặt → Google → Quảng cáo</em>). Xem thêm: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Cách Google sử dụng dữ liệu trong quảng cáo</a> và <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Chính sách quyền riêng tư của Google</a>.</p>
+
+      <h2><span class="n">3</span>Mua trong ứng dụng</h2>
+      <p>Gói “Gỡ quảng cáo” được bán qua <strong>Google Play Billing</strong>. Mọi thông tin thanh toán do Google xử lý; Game chỉ nhận được xác nhận rằng giao dịch thành công để tắt quảng cáo xen kẽ và banner. Chúng tôi không nhận và không lưu thông tin thẻ hay tài khoản thanh toán của bạn.</p>
+
+      <h2><span class="n">4</span>Thông báo nhắc chơi</h2>
+      <p>Nếu bạn bật “Nhắc chơi hằng ngày”, Game đặt lịch thông báo <strong>ngay trên máy</strong> (không qua máy chủ). Bạn có thể tắt bất cứ lúc nào trong Cài đặt của Game hoặc của Android.</p>
+
+      <h2><span class="n">5</span>Chia sẻ và đánh giá</h2>
+      <p>Khi bạn bấm “Chia sẻ”, Game mở bảng chia sẻ của Android với một lời mời và đường link tải Game; bạn chọn chia sẻ qua đâu. Khi bấm “Đánh giá”, Game mở trang Google Play hoặc hộp đánh giá của Google Play. Game không đọc danh bạ hay nội dung bạn chia sẻ.</p>
+
+      <h2><span class="n">6</span>Trẻ em</h2>
+      <p>Game không hướng tới trẻ em dưới 13 tuổi và chúng tôi không cố ý thu thập thông tin cá nhân của trẻ em. Nếu bạn cho rằng một trẻ em đã cung cấp thông tin cho chúng tôi, hãy liên hệ để chúng tôi xử lý.</p>
+
+      <h2><span class="n">7</span>Bảo mật và lưu giữ</h2>
+      <p>Dữ liệu của Game nằm trên thiết bị của bạn và được bảo vệ bởi cơ chế của Android. Dữ liệu quảng cáo và thanh toán được Google lưu giữ theo chính sách của Google.</p>
+
+      <h2><span class="n">8</span>Quyền của bạn</h2>
+      <p>Bạn có thể: tắt quảng cáo cá nhân hoá, đặt lại mã quảng cáo, tắt thông báo, hoặc xoá toàn bộ dữ liệu của Game bằng cách gỡ cài đặt. Với dữ liệu do Google thu thập, bạn có thể thực hiện quyền của mình qua <a href="https://myaccount.google.com/data-and-privacy" target="_blank" rel="noopener">trang Dữ liệu và quyền riêng tư của Google</a>.</p>
+
+      <h2><span class="n">9</span>Thay đổi chính sách</h2>
+      <p>Chúng tôi có thể cập nhật chính sách này khi Game thay đổi. Ngày hiệu lực ở đầu trang sẽ được cập nhật tương ứng.</p>
+
+      <h2><span class="n">10</span>Liên hệ</h2>
+      <p>Mọi câu hỏi về quyền riêng tư, vui lòng gửi email tới: <a href="mailto:chautruongminh001@gmail.com">chautruongminh001@gmail.com</a></p>
+    </div>
+  </main>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <main class="lang" id="lang-en" lang="en" hidden>
+    <div style="text-align:center">
+      <h1>Privacy Policy</h1>
+      <div class="meta">Effective date: November 15, 2026</div>
+    </div>
+    <div class="card">
+      <p>This policy explains how the <strong>Pipe Pals</strong> game (application ID <code>com.tmq.pipe_pals</code>, the “Game”) handles information when you use it. We do not ask you to create an account and we do not collect your name, email address or phone number.</p>
+      <div class="note">In short: your progress is stored on your own device. Ads are served by Google AdMob and may use your device’s advertising ID. Payments are processed by Google Play — we never see your card details.</div>
+
+      <h2><span class="n">1</span>Data stored on your device</h2>
+      <p>The Game stores on your device: completed levels, stars, hints, coins, skins, achievements, your daily streak and your settings (sound, vibration, color-blind mode, reminders). This data is <strong>not sent to our servers</strong> (we do not operate any servers). If Android backup is enabled, the operating system may back this data up to your Google account under Google’s policies. Uninstalling the Game deletes this data from your device.</p>
+
+      <h2><span class="n">2</span>Advertising (Google AdMob)</h2>
+      <p>The Game shows ads from <strong>Google AdMob</strong>: banners, interstitial ads between levels and rewarded ads (which you choose to watch for hints, coins or extra time). To serve and measure ads, Google may collect:</p>
+      <ul>
+        <li>Your device’s advertising identifier (Advertising ID);</li>
+        <li>IP address, device and operating-system information, language, and approximate location derived from the IP address;</li>
+        <li>Ad interaction data (impressions and clicks).</li>
+      </ul>
+      <p>Users in the European Economic Area, the United Kingdom and Switzerland are asked for consent before personalized ads are shown and can change their choice at any time under <em>Settings → Ad privacy choices</em>. You can also reset or delete your advertising ID in Android settings (<em>Settings → Google → Ads</em>). Learn more: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">How Google uses information in advertising</a> and the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+
+      <h2><span class="n">3</span>In-app purchases</h2>
+      <p>The “Remove ads” purchase is sold through <strong>Google Play Billing</strong>. All payment information is handled by Google; the Game only receives confirmation that the purchase succeeded so it can turn off interstitial and banner ads. We do not receive or store your card or payment account details.</p>
+
+      <h2><span class="n">4</span>Reminder notifications</h2>
+      <p>If you turn on “Daily reminder”, the Game schedules notifications <strong>locally on your device</strong> (no server involved). You can turn them off at any time in the Game’s settings or in Android settings.</p>
+
+      <h2><span class="n">5</span>Sharing and ratings</h2>
+      <p>When you tap “Share”, the Game opens Android’s share sheet with an invitation and a download link; you choose where to share it. When you tap “Rate us”, the Game opens Google Play or the Google Play in-app review dialog. The Game does not read your contacts or the content you share.</p>
+
+      <h2><span class="n">6</span>Children</h2>
+      <p>The Game is not directed to children under 13, and we do not knowingly collect personal information from children. If you believe a child has provided us with information, please contact us and we will address it.</p>
+
+      <h2><span class="n">7</span>Security and retention</h2>
+      <p>Game data stays on your device and is protected by Android’s security mechanisms. Advertising and payment data is retained by Google in accordance with Google’s policies.</p>
+
+      <h2><span class="n">8</span>Your choices</h2>
+      <p>You can opt out of personalized ads, reset your advertising ID, turn off notifications, or delete all Game data by uninstalling the Game. For data collected by Google, you can exercise your rights through <a href="https://myaccount.google.com/data-and-privacy" target="_blank" rel="noopener">Google’s Data &amp; privacy page</a>.</p>
+
+      <h2><span class="n">9</span>Changes to this policy</h2>
+      <p>We may update this policy when the Game changes. The effective date at the top of this page will be updated accordingly.</p>
+
+      <h2><span class="n">10</span>Contact</h2>
+      <p>For any privacy questions, please email: <a href="mailto:chautruongminh001@gmail.com">chautruongminh001@gmail.com</a></p>
+    </div>
+  </main>
+
+  <footer>© 2026 Pipe Pals</footer>
+</div>
+
+<script>
+  // Chọn ngôn ngữ: ?lang=vi|en > lựa chọn trước đó > ngôn ngữ trình duyệt.
+  (function () {
+    var tabs = document.querySelectorAll('.tabs button');
+    function show(lang) {
+      document.getElementById('lang-vi').hidden = lang !== 'vi';
+      document.getElementById('lang-en').hidden = lang !== 'en';
+      document.documentElement.lang = lang;
+      for (var i = 0; i < tabs.length; i++) {
+        tabs[i].setAttribute('aria-selected', String(tabs[i].dataset.lang === lang));
+      }
+      try { localStorage.setItem('pp-privacy-lang', lang); } catch (e) {}
+    }
+    var q = (location.search.match(/[?&]lang=(vi|en)/) || [])[1];
+    var saved = null;
+    try { saved = localStorage.getItem('pp-privacy-lang'); } catch (e) {}
+    var nav = (navigator.language || 'en').toLowerCase().indexOf('vi') === 0 ? 'vi' : 'en';
+    show(q || saved || nav);
+    for (var i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener('click', function () { show(this.dataset.lang); });
+    }
+  })();
+</script>
+</body>
+</html>
